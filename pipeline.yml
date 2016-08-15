@@ -1,6 +1,6 @@
 ---
   resources:
-    -name: shell-app
+  - name: shell-app
     type: git
     source:
       uri: https://github.com/ravis-git/concourse-shell.git
