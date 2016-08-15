@@ -6,10 +6,10 @@
       uri: https://github.com/ravis-git/concourse-shell.git
 
   jobs:
-    -name: job-shell-app
+    - name: job-shell-app
       public: true
       plan:
-        -get: shell-app
+        - get: shell-app
           trigger: true
-        -task: shell-execute
+        - task: shell-execute
           file: shell-app/shell-pipeline.yml
