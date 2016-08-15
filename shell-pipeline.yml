@@ -5,7 +5,7 @@
     source: {repository: alpine}
 
     inputs:
-      -name: resource-app
+      - name: resource-app
 
     run:
       path: resource-app/command.sh
