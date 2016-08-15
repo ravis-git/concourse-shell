@@ -1,3 +1,3 @@
-!#/bin/#!/usr/bin/env bash
+#!/usr/bin/env bash
 
 echo 'test this line'
